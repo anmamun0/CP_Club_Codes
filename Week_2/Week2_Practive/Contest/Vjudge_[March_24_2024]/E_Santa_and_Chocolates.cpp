@@ -36,17 +36,11 @@ int main()
             total += v[i];
         }
         
-        int doubel = n / 2, single = n - (n / 2);
-        
-        if(total==n) yes;
+        if(total<n) no;
         else 
         {
-            while(total>0)
-            {
-                total -= single;
-                total -= (doubel * 2);
-            }
-            (total == 0) ? yes : no;
+            if(total %n==0)yes;
+            else (k != 0)? yes : no;
         }
     }
     return 0;
