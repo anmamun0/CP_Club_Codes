@@ -1,0 +1,33 @@
+NOT
+AND
+OR
+XOR
+
+LEFT SHIFT
+RIGHT SHIFT
+
+-> NOT 
+0 - 1
+1 - 0
+
+AND | OR | XOR 
+x -- y --  AND(*)  OR(+)       XOR(same same == 0)
+0    0  -?  0	     0		0
+0    1  -?  0	     1		1
+1    0  -?  0	     1		1
+1    1  -?  1	     1		0
+
+left shift(<<) |
+
+   00101100 dec(44)
+  01011000 (1 left shift) dec(88)
+ 10110000 (2 left shift)  dec(176)
+
+right shift(>>) |
+
+ 00101100  dec(44)
+  00010110  (1 right shift) dec(22)
+   00001011 (2 right shift) dec(11)
+
+
+
