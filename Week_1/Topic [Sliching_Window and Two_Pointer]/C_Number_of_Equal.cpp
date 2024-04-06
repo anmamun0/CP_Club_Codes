@@ -32,7 +32,7 @@ int main()
             cnt1++;
             l++;
         }
-
+  
         //corner case bay-pass
         while(curr>b[r] and r<m)
         {
