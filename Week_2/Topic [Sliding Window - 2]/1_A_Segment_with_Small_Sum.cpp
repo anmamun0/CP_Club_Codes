@@ -42,7 +42,7 @@ int main()
         r++;
     }
     cout << ans;
-    enter;
+    enter; 
 
     return 0;
 }
