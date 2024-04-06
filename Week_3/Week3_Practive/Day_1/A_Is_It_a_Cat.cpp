@@ -12,7 +12,7 @@ typedef long long ll;
 
 using namespace std;
 int main()
-{
+{ 
     // _Author  : anmamun0
     // _Created : 29 March 2024 ||  19:32:52
     // _File    : A_Is_It_a_Cat.cpp
