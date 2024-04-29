@@ -11,7 +11,7 @@ typedef long long ll;
 #define cin2(a, b) cin >> a >> b;
 #define cin3(a, b, c) cin >> a >> b >> c;
 #define all(x) x.begin(),x.end()
-#define all_0(x) memset(x,0,sizeof(x))
+#define all_0(x) memset(x,0,sizeof(x)) 
 #define isEven(x) ((x&1)== 0)
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
