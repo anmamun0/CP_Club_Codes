@@ -44,9 +44,7 @@ gcC
 
         auto ok = [&](int k) -> bool
         {
-            multiset<int> ml;
-            for (auto c : v)
-                ml.insert(c);
+            multiset<int> ml; for (auto c : v) ml.insert(c);
 
             for (int i = 1; i <= k; i++)
             {
@@ -62,7 +60,6 @@ gcC
                 if (!ml.empty())
                 {
                     ll a = (*ml.begin()) + req;
-
                     ml.erase(ml.begin());
                     ml.insert(a);
                 }
