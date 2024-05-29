@@ -1,0 +1,79 @@
+#include <bits/stdc++.h>
+typedef long long ll;
+#define vl vector<ll> 
+#define vi vector<int> 
+#define in_range(i,s,n) for(int i=s; i<=n; i++)
+#define in_range(i,s,n) for(int i=s; i<=n; i++)
+#define in_range_back(i,s,n) for(int i=n ; i >= s; i--)
+#define take_array(v,n) in_range(i,0,n) cin>>v[i]
+#define print_array(v) for(auto c:v){cout<<c<<" ";}cout<<ln
+#define erase_duplicates(x) x.erase(unique(all(x)),x.end());
+#define cin2(a, b) cin >> a >> b;
+#define cin3(a, b, c) cin >> a >> b >> c;
+#define all(x) x.begin(),x.end()
+#define all_0(x) memset(x,0,sizeof(x))
+#define isEven(x) ((x&1)== 0)
+#define yes cout << "YES\n"
+#define no cout << "NO\n"
+#define enter cout << "\n"
+#define ln '\n'
+#define PQ priority_queue
+#define Hashmap unordered_map
+#define pb push_back
+#define gcC int main()
+#define checkmate return 0;
+ 
+using namespace std;
+// using namespace __gnu_pbds;
+gcC
+{
+  /* _Coder   : anmamun0
+     _Created : 01 May 2024 ||  20:47:43
+     _File    : GAME_11.cpp 
+ 
+    بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ */
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int t;
+    cin >> t;
+    while(t--)
+    {
+        ll n, m;   cin2(n,m);
+
+        vl bat(n), ball(m);
+        take_array(bat,n-1); take_array(ball,m-1);
+        sort(all(bat), greater<int>());
+        sort(all(ball), greater<int>());
+        // print_array(bat);
+        // print_array(ball);
+
+        ll total = 0;
+        bool make = true;
+        if(n>=4 and m>=4)
+        {
+            for (int i = 0;i<4; i++)
+            {
+                total += bat[i];
+                total += ball[i];
+            }
+            bat.erase(bat.begin(), bat.begin() + 4);
+            ball.erase(ball.begin(), ball.begin() + 4);
+
+            vl ex;
+            ex.insert(ex.end(), bat.begin(), bat.end());
+            ex.insert(ex.end(), ball.begin(), ball.end());
+            sort(all(ex), greater<int>());
+
+            if(ex.size()>=3)
+            {
+                for (int i = 0; i < 3; i++) total+=ex[i];
+            }
+            else make = false;
+        }
+        else make = false;
+        (make) ? cout << total << "\n" : cout << -1 << "\n";
+    }
+
+    checkmate;
+}
