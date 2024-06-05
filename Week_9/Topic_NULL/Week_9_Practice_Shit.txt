@@ -1,0 +1,19 @@
+	
+	1. https://cses.fi/problemset/task/1141
+	2. https://cses.fi/problemset/task/1641
+	3. https://cses.fi/problemset/task/1091
+	4. https://cses.fi/problemset/task/1094
+	5. https://cses.fi/problemset/task/1070
+	6. https://cses.fi/problemset/task/1071
+	7. https://cses.fi/problemset/task/1754
+	8. https://cses.fi/problemset/task/1755
+	9. https://cses.fi/problemset/task/1660
+ 	10. https://cses.fi/problemset/task/1661
+	11. https://cses.fi/problemset/task/1662
+	12. https://codeforces.com/problemset/problem/1971/E
+	13. https://codeforces.com/problemset/problem/1944/C
+
+
+
+
+
