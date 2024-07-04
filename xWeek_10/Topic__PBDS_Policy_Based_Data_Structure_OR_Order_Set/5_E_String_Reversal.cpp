@@ -65,8 +65,7 @@ gcC
         ans += p.order_of_key(permitaion[i]);
         print(p.order_of_key(permitaion[i])," ");
         p.insert(permitaion[i]);
-    }
-    enter;
+    } 
     print(ans, "\n");
 
     checkmate;
