@@ -1,0 +1,31 @@
+Week_11_Difference_ARRAY
+
+	https://codeforces.com/problemset/problem/1399/C
+	https://codeforces.com/problemset/problem/1864/C
+	https://codeforces.com/problemset/problem/1729/D
+	https://codeforces.com/problemset/problem/1734/C
+	https://codeforces.com/problemset/problem/1726/B
+	https://codeforces.com/problemset/problem/1976/C
+	https://codeforces.com/problemset/problem/1976/D
+	https://codeforces.com/problemset/problem/1895/C
+	https://codeforces.com/problemset/problem/1927/E
+	https://codeforces.com/problemset/problem/1904/C
+	
+	Topicwise || Difference Array
+
+	https://codeforces.com/problemset/problem/295/A
+	https://codeforces.com/problemset/problem/816/B
+	https://codeforces.com/problemset/problem/276/C
+	https://codeforces.com/problemset/problem/845/C
+	https://cses.fi/problemset/task/1619
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
