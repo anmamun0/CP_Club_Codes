@@ -1,0 +1,23 @@
+https://codeforces.com/blog/entry/69409
+
+Problems:
+
+	https://codeforces.com/problemset/problem/1926/E
+	https://codeforces.com/problemset/problem/1468/C
+	https://codeforces.com/problemset/problem/1421/C
+	https://codeforces.com/problemset/problem/1343/C
+	https://codeforces.com/problemset/problem/1270/B
+	https://codeforces.com/problemset/problem/1974/C
+	https://codeforces.com/problemset/problem/1974/D
+	
+	Topic Wise | PBDS
+	https://codeforces.com/problemset/problem/600/B
+	https://cses.fi/problemset/task/1076
+	https://www.spoj.com/problems/INVCNT/en/
+	https://cses.fi/problemset/task/1077
+	https://codeforces.com/problemset/problem/1676/H1
+	https://codeforces.com/problemset/problem/1676/H2
+	https://codeforces.com/problemset/problem/1915/F
+	https://codeforces.com/problemset/problem/1430/E
+	https://codeforces.com/problemset/problem/61/E
+		
