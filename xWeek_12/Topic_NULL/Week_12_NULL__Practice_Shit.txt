@@ -1,4 +1,4 @@
-Week_12_Topic_NULL
+Week_12_Topic_NULL_Practice_Shit
 	Practice Problem's:
 
 	1.https://codeforces.com/problemset/problem/1882/B
