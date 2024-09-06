@@ -23,6 +23,37 @@ namespace AN{inline void yes(){cout<<"YES\n";}void no(){cout<<"NO\n";}bool isEve
     template <typename T> void print(vector<T> v){ for(auto c:v)cout<<c<<" ";}char ln = '\n';}
 using namespace AN;
 
+void login()
+{
+    str a, b; input(a, b); 
+
+    if (a.front() == b.front())
+    {
+        yes();
+        cout << a.front() << "*\n";
+        return;
+    }
+    else if (a.back() == b.back())
+    {
+        yes();
+        cout << "*" << a.back() << '\n';
+        return;
+    }
+
+    for(int i = 0; i<a.size()-1; i++)
+    {
+        string sub = a.substr(i, 2);
+        auto it = b.find(sub);
+        if(it != string::npos)
+        {
+            yes();
+            sub = '*' + sub + '*';
+            cout << sub << endl;
+            return;
+        }
+    }
+    no();
+}
 int main()
 {
   /* _Coder   : anmamun0
@@ -32,67 +63,8 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    testCase
-    {
-        str a, b; input(a,b);
-        map<string, pair<int,int>> mp; 
-        str s;
-        int one = 0;
-        int two = 0;
-        for (int i = 0; i < a.size(); i++)
-        {
-            for (int j = i; j < a.size(); j++)
-            {
-                str sub = a.substr(i, (j - i + 1));
-                auto it = b.find(sub);
-
-                if(it != string::npos)
-                {
-                    mp[sub] = {i, it};
-                    // cout << sub << " " << i << " " <<it <<endl;
-                    if(sub.size()> s.size())
-                    { 
-                        s = sub;
-                        one = i;
-                        two = it;
-                    }
-                } 
-            }
-        }
-
-        if(s.size()==0) 
-        {
-            cout<<"NO\n";
-            continue;
-        }
-
-        bool first = false, last = false; 
- 
-        if(one >0 or two>0)first = true; 
-        if((s.size()+one) < a.size() or (s.size()+two) < b.size())last = true;
-
-        if(s.size()==1 )
-        {
-            if(first and last)
-            {
-                cout<<"NO\n";
-                continue;
-            }   
-            else 
-            {
-                yes();
-                if(first)s = '*'+s;
-                if(last) s+= '*';
-            }
-        } 
-        else 
-        {
-            yes();
-            if(first)s = '*'+s;
-            if(last) s+= '*';
-        }
-        cout << s << endl;
-    }
+    testCase  login(); 
 
     checkmate 0;
 }
+
