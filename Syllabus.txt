@@ -1,0 +1,26 @@
+Compitivie Programming Syllabus -> 
+User : anmamun0
+email : almamun20044@gmail.com
+------------------------------------------------
+
+week 1 : Sliding_Window and Two_Pointer
+week 2 : Sliding Window - 2
+week 3 : ----------
+week 4 : Bit_Manipulation
+week 5 : Binary_Search
+week 6 : Monotonic_Func
+week 7 : ----------
+week 8 : Number_Thoury
+week 9 : ----------
+week 10 : PBDS_Policy_Based_Data_Structure_OR_Order_Set_OR_Segment_Tree
+
+week 11 : Different_Array
+week 12 : ---------
+week 13 : ---------
+week 14 : ---------
+week 15 : Recursion_and_BackTracking
+week 16 : Segment_Tree
+week 17 : ---------
+week 18 : ---------
+week 19 : Segment_Tree_Lazy
+week 20 : ---------
