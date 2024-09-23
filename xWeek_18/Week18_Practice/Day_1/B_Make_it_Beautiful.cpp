@@ -36,11 +36,18 @@ int main()
     {
         int n;input(n);
         vector<int> v(n); input(v);
-        sort(all(v));
 
-        vector<int> al;
-        vector<int> rev;
-        int prev = 0;
+        if (v.front() == v.back()) no();
+        else
+        {
+            yes();
+            v.push_back(v.front());
+            v.erase(v.begin());
+            reverse(all(v));
+
+            print(v);
+            __stop; 
+        }
     }
 
     checkmate 0;
